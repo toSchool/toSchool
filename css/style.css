@@ -25,11 +25,12 @@ header{
     max-width: 1200px;
     margin: 0 auto;
 }
-.logo{
+.logo a{
     font-weight: bold;
     font-size: 50px;
-    color: linear-gradient(267.7deg, #95B1AE -20.23%, rgba(31, 128, 122, 0.03125) 34.67%, rgba(31, 128, 122, 0.03125) 49.64%, rgba(32, 128, 122, 0.0416667) 110.95%, 
-                        rgba(77, 182, 172, 0.911932) 116.64%, rgba(27, 126, 120, 0) 116.65%);
+    color: linear-gradient(267.7deg, #95B1AE -20.23%, rgba(31, 128, 122, 0.03125) 34.67%, rgba(31, 128, 122, 0.03125) 49.64%, rgba(32, 128, 122, 0.0416667) 110.95%, rgba(77, 182, 172, 0.911932) 116.64%, rgba(27, 126, 120, 0) 116.65%);
+    text-decoration: none;
+
 }
 nav{
     display: flex;
@@ -111,6 +112,7 @@ img{
 .arrows{
     width: 67px;
     height: 67px;
+    cursor: pointer;
 }
 
 .navigators_in{
@@ -245,4 +247,52 @@ footer{
 }
 .footer_contacts p{
     padding: 5px 0;
+}
+
+/* ----------------CSS of FAQ----------------- */
+
+.faq_top{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    min-height: 20vh;
+
+}
+.faq_top h1{
+    font-weight: bold;
+    font-size: 25px;
+    color: #5C5C5C;
+}
+.faq_top hr{
+    background-color: #1B7E78;
+    height: 3px;
+    border: none;
+    margin: 3px 0;
+}
+
+.faq_content{
+    display: flex;
+    flex-direction: column;
+}
+.faqs{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.5);
+    border: 2px solid #1B7E78;
+    box-sizing: border-box;
+    padding: 7px 18px;
+    margin-bottom: 22px;
+}
+.faqs h1{
+   
+    font-weight: bold;
+    font-size: 25px;
+    color: #000000;
+}
+
+.faqs h2{
+    width: 40px;
+    height: 23px;
+    font-weight: bold;
+    cursor: pointer;
 }
