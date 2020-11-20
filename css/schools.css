@@ -1,0 +1,62 @@
+
+body{
+    background-color: #A5ABBD;
+    font-family: 'Lora', serif;
+}
+.schools_top{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    min-height: 20vh;
+
+}
+.schools_top h1{
+    font-weight: bold;
+    font-size: 25px;
+    color: #5C5C5C;
+}
+.schools_top hr{
+    background-color: #1B7E78;
+    height: 3px;
+    border: none;
+    margin: 3px 0;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #f0eeee;
+    text-align: center;
+    padding: 8px;
+    font-size: 16px;    
+}
+  
+tr:first-child {
+    background-color: #60949B;
+    font-size: 16px;
+    color: white;
+    font-family: Lora;
+    font-style: normal;
+    font-weight: normal;
+}
+tr:nth-child(even) {
+    background-color: #e1e3e7;
+    
+}
+tr{
+    background-color: #D2D5DE; 
+}
+input[type=text], select {
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+}

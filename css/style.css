@@ -60,6 +60,9 @@ nav{
 .nav_links:hover:after{
     display: block;
 }
+#login:hover:after{
+    display: none;
+}
 
 #login{
     position: absolute;
@@ -249,50 +252,3 @@ footer{
     padding: 5px 0;
 }
 
-/* ----------------CSS of FAQ----------------- */
-
-.faq_top{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    min-height: 20vh;
-
-}
-.faq_top h1{
-    font-weight: bold;
-    font-size: 25px;
-    color: #5C5C5C;
-}
-.faq_top hr{
-    background-color: #1B7E78;
-    height: 3px;
-    border: none;
-    margin: 3px 0;
-}
-
-.faq_content{
-    display: flex;
-    flex-direction: column;
-}
-.faqs{
-    display: flex;
-    justify-content: space-between;
-    background: rgba(255, 255, 255, 0.5);
-    border: 2px solid #1B7E78;
-    box-sizing: border-box;
-    padding: 7px 18px;
-    margin-bottom: 22px;
-}
-.faqs h1{
-   
-    font-weight: bold;
-    font-size: 25px;
-    color: #000000;
-}
-
-.faqs h2{
-    width: 40px;
-    height: 23px;
-    font-weight: bold;
-    cursor: pointer;
-}

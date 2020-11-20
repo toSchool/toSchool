@@ -1,0 +1,11 @@
+.name_of_user{
+    position: absolute;
+    border-radius: 100px;
+    padding: 0.2rem 3.5rem;
+    background-color: #1B7E78;
+    color: white;
+    top: -70%;
+    left: 100%;
+    text-decoration: none;
+    text-align: center;
+}
